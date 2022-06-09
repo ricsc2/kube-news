@@ -62,5 +62,5 @@ jobs:
         with:
           images: ricsc2/kube-news:v${{ github.run_number }}
           manifests: |
-            ./src/deployment.yaml
+            ./src/k8s/deployment.yaml
     
